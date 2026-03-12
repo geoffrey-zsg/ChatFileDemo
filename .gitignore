@@ -6,7 +6,25 @@ vendor/
 .env
 .env.local
 
+# Next.js
+.next/
+out/
+
 # Build
 dist/
 build/
 *.log
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+e2e/results/
+
+# IDE
+.vscode/
+.idea/
